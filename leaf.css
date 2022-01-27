@@ -1,0 +1,30 @@
+#leaf {
+  stroke-dasharray: 289.2494201660156px;
+  stroke-dashoffset: 289.2494201660156px;
+  animation: leafIcon 42s ease-in-out infinite forwards;
+}
+
+@keyframes leafIcon {
+  0%,
+  57.12% {
+    stroke-dashoffset: 289.2494201660156px;
+  }
+
+  61.88% {
+    stroke-dashoffset: 0px;
+  }
+
+  61.88%,
+  66.64% {
+    stroke-dashoffset: 0px;
+  }
+
+  71.4% {
+    stroke-dashoffset: 289.2494201660156px;
+  }
+
+  71.4%,
+  100% {
+    stroke-dashoffset: 289.2494201660156px;
+  }
+}
