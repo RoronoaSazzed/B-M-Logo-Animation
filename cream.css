@@ -1,0 +1,92 @@
+#cream-line {
+  stroke-dasharray: 217.3744659423828px;
+  stroke-dashoffset: 217.3744659423828px;
+  animation: creamIcon 42s ease-in-out infinite forwards;
+}
+
+@keyframes creamIcon {
+  0%,
+  42.84% {
+    stroke-dashoffset: 217.3744659423828px;
+  }
+
+  47.6% {
+    stroke-dashoffset: 0px;
+  }
+
+  47.6%,
+  52.36% {
+    stroke-dashoffset: 0px;
+  }
+
+  57.12% {
+    stroke-dashoffset: 217.3744659423828px;
+  }
+
+  57.12%,
+  100% {
+    stroke-dashoffset: 217.3744659423828px;
+  }
+}
+
+#cream-bar {
+  stroke-dasharray: 33.75px;
+  stroke-dashoffset: 33.75px;
+  animation: creamBarIn 42s ease-in-out infinite forwards;
+}
+
+@keyframes creamBarIn {
+  0%,
+  42.84% {
+    stroke-dashoffset: 33.75px;
+  }
+
+  47.6% {
+    stroke-dashoffset: 0px;
+  }
+
+  47.6%,
+  52.36% {
+    stroke-dashoffset: 0px;
+  }
+
+  57.12% {
+    stroke-dashoffset: 33.75px;
+  }
+
+  57.12%,
+  100% {
+    stroke-dashoffset: 33.75px;
+  }
+}
+
+#cream-drop {
+  stroke-dasharray: 56.82585906982422px;
+  stroke-dashoffset: 56.82585906982422px;
+  animation: creamDropIn 42s ease-in-out infinite forwards;
+}
+
+@keyframes creamDropIn {
+  0%,
+  42.84% {
+    stroke-dashoffset: 56.82585906982422px;
+  }
+
+  47.6% {
+    stroke-dashoffset: 0px;
+  }
+
+  47.6%,
+  52.36% {
+    stroke-dashoffset: 0px;
+  }
+
+  57.12% {
+    stroke-dashoffset: 56.82585906982422px;
+  }
+
+  57.12%,
+  100% {
+    stroke-dashoffset: 56.82585906982422px;
+  }
+}
