@@ -1,0 +1,129 @@
+#food {
+  transform-box: fill-box;
+  transform-origin: center;
+  transform: rotate(45deg);
+}
+
+#bottom-food {
+  stroke-dasharray: 66.71639251708984px;
+  stroke-dashoffset: 66.71639251708984px;
+  animation: bottomFoodIn 42s ease-in-out infinite forwards;
+}
+
+@keyframes bottomFoodIn {
+  0%,
+  85.68% {
+    stroke-dashoffset: 66.71639251708984px;
+  }
+
+  90.44% {
+    stroke-dashoffset: 0px;
+  }
+
+  90.44%,
+  95.2% {
+    stroke-dashoffset: 0px;
+  }
+
+  99.96% {
+    stroke-dashoffset: 66.71639251708984px;
+  }
+
+  99.96%,
+  100% {
+    stroke-dashoffset: 66.71639251708984px;
+  }
+}
+
+#top-food {
+  stroke-dasharray: 75.83795166015625px;
+  stroke-dashoffset: 75.83795166015625px;
+  animation: topFoodIn 42s ease-in-out infinite forwards;
+}
+
+@keyframes topFoodIn {
+  0%,
+  85.68% {
+    stroke-dashoffset: 75.83795166015625px;
+  }
+
+  90.44% {
+    stroke-dashoffset: 0px;
+  }
+
+  90.44%,
+  95.2% {
+    stroke-dashoffset: 0px;
+  }
+
+  99.96% {
+    stroke-dashoffset: 75.83795166015625px;
+  }
+
+  99.96%,
+  100% {
+    stroke-dashoffset: 75.83795166015625px;
+  }
+}
+
+#mid-food {
+  stroke-dasharray: 99.5357437133789px;
+  stroke-dashoffset: 99.5357437133789px;
+  animation: midFoodIn 42s ease-in-out infinite forwards;
+}
+
+@keyframes midFoodIn {
+  0%,
+  85.68% {
+    stroke-dashoffset: 99.5357437133789px;
+  }
+
+  90.44% {
+    stroke-dashoffset: 0px;
+  }
+
+  90.44%,
+  95.2% {
+    stroke-dashoffset: 0px;
+  }
+
+  99.96% {
+    stroke-dashoffset: 99.5357437133789px;
+  }
+
+  99.96%,
+  100% {
+    stroke-dashoffset: 99.5357437133789px;
+  }
+}
+
+#top {
+  stroke-dasharray: 104.39351654052734px;
+  stroke-dashoffset: 104.39351654052734px;
+  animation: topIn 42s ease-in-out infinite forwards;
+}
+
+@keyframes topIn {
+  0%,
+  85.68% {
+    stroke-dashoffset: 104.39351654052734px;
+  }
+
+  90.44% {
+    stroke-dashoffset: 0px;
+  }
+
+  90.44%,
+  95.2% {
+    stroke-dashoffset: 0px;
+  }
+
+  99.96% {
+    stroke-dashoffset: 104.39351654052734px;
+  }
+
+  99.96%,
+  100% {
+    stroke-dashoffset: 104.39351654052734px;
+  }
+}
