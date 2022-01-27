@@ -1,0 +1,35 @@
+#capsule-icon,
+#capsule-line {
+  transform-origin: center;
+  transform-box: fill-box;
+  transform: rotate(40deg);
+  stroke-dasharray: 191.10877990722656px;
+  stroke-dashoffset: 191.10877990722656px;
+  animation: capsuleIcon 42s ease-in-out infinite forwards;
+}
+
+@keyframes capsuleIcon {
+  0%,
+  14.28% {
+    stroke-dashoffset: 191.10877990722656px;
+  }
+
+  19.04% {
+    stroke-dashoffset: 0px;
+  }
+
+  19.04%,
+  23.8% {
+    transform: rotate(40deg);
+    stroke-dashoffset: 0px;
+  }
+
+  28.56% {
+    stroke-dashoffset: 191.10877990722656px;
+  }
+
+  28.56%,
+  100% {
+    stroke-dashoffset: 191.10877990722656px;
+  }
+}
