@@ -1,0 +1,45 @@
+#andSign {
+  stroke-dashoffset: 191.10877990722656px;
+  animation: andSign 42s ease-in-out infinite forwards;
+}
+
+@keyframes andSign {
+  0% {
+    stroke-dasharray: 642.4951171875px;
+    stroke-dashoffset: 642.4951171875px;
+    fill: transparent;
+  }
+
+  3.5% {
+    stroke-dashoffset: 0px;
+    fill: transparent;
+    stroke-width: 1px;
+  }
+
+  4.76% {
+    stroke-dashoffset: 0px;
+    stroke-width: 1px;
+    fill: #93c90e;
+  }
+
+  4.76%,
+  9.52% {
+    stroke-dashoffset: 0px;
+    stroke-width: 1px;
+    fill: #93c90e;
+    stroke-width: 0px;
+  }
+
+  14.28% {
+    stroke-dasharray: 642.4951171875px;
+    stroke-dashoffset: 642.4951171875px;
+    fill: transparent;
+  }
+
+  14.28%,
+  100% {
+    stroke-dasharray: 642.4951171875px;
+    stroke-dashoffset: 642.4951171875px;
+    fill: transparent;
+  }
+}
