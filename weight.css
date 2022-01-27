@@ -1,0 +1,99 @@
+#outer-weight {
+  stroke-dasharray: 248.51255798339844px;
+  stroke-dashoffset: 248.51255798339844px;
+  animation: outerWeightIn 42s ease-in-out infinite forwards;
+}
+
+@keyframes outerWeightIn {
+  0%,
+  71.4% {
+    stroke-dashoffset: 248.51255798339844px;
+  }
+
+  76.16% {
+    stroke-dashoffset: 0px;
+  }
+
+  76.16%,
+  80.92% {
+    stroke-dashoffset: 0px;
+  }
+
+  85.68% {
+    stroke-dashoffset: 248.51255798339844px;
+  }
+
+  85.68%,
+  100% {
+    stroke-dashoffset: 248.51255798339844px;
+  }
+}
+
+#inner-weight {
+  stroke-dasharray: 90.99435424804688px;
+  stroke-dashoffset: 90.99435424804688px;
+  animation: innerWeightIn 42s ease-in-out infinite forwards;
+}
+
+@keyframes innerWeightIn {
+  0%,
+  71.4% {
+    stroke-dashoffset: 90.99435424804688px;
+  }
+
+  76.16% {
+    stroke-dashoffset: 0px;
+  }
+
+  76.16%,
+  80.92% {
+    stroke-dashoffset: 0px;
+  }
+
+  85.68% {
+    stroke-dashoffset: 90.99435424804688px;
+  }
+
+  85.68%,
+  100% {
+    stroke-dashoffset: 90.99435424804688px;
+  }
+}
+
+#weight-meter {
+  transform-box: fill-box;
+  transform-origin: center bottom;
+  animation: meterRotate 42s ease-in-out infinite forwards;
+}
+
+@keyframes meterRotate {
+  0%,
+  71.4% {
+    transform: scaleY(0) rotate(0deg);
+  }
+
+  75% {
+    transform: scaleY(1) rotate(0deg);
+  }
+
+  76.16% {
+    transform: scaleY(1) rotate(45deg);
+  }
+
+  80.92% {
+    transform: scaleY(1) rotate(-45deg);
+  }
+
+  84% {
+    transform: scaleY(1) rotate(0deg);
+  }
+
+  85.68% {
+    transform: scaleY(0) rotate(0deg);
+  }
+
+  85.68%,
+  100% {
+    transform: scaleY(0) rotate(0deg);
+  }
+}
