@@ -1,0 +1,228 @@
+/* #cream-line {
+  stroke-dasharray: 217.3744659423828px;
+  stroke-dashoffset: 217.3744659423828px;
+  animation: creamIcon 42s ease-in-out infinite forwards;
+}
+
+@keyframes creamIcon {
+  0%,
+  42.84% {
+    stroke-dashoffset: 217.3744659423828px;
+  }
+
+  47.6% {
+    stroke-dashoffset: 0px;
+  }
+
+  47.6%,
+  52.36% {
+    stroke-dashoffset: 0px;
+  }
+
+  57.12% {
+    stroke-dashoffset: 217.3744659423828px;
+  }
+
+  57.12%,
+  100% {
+    stroke-dashoffset: 217.3744659423828px;
+  }
+}
+
+#cream-bar {
+  stroke-dasharray: 33.75px;
+  stroke-dashoffset: 33.75px;
+  animation: creamBarIn 42s ease-in-out infinite forwards;
+}
+
+@keyframes creamBarIn {
+  0%,
+  42.84% {
+    stroke-dashoffset: 33.75px;
+  }
+
+  47.6% {
+    stroke-dashoffset: 0px;
+  }
+
+  47.6%,
+  52.36% {
+    stroke-dashoffset: 0px;
+  }
+
+  57.12% {
+    stroke-dashoffset: 33.75px;
+  }
+
+  57.12%,
+  100% {
+    stroke-dashoffset: 33.75px;
+  }
+}
+
+#cream-drop {
+  stroke-dasharray: 56.82585906982422px;
+  stroke-dashoffset: 56.82585906982422px;
+  animation: creamDropIn 42s ease-in-out infinite forwards;
+} */
+
+#bath-tub {
+  stroke-dasharray: 353.23284912109375px;
+  stroke-dashoffset: 353.23284912109375px;
+  animation: bathTubIn 42s ease-in-out infinite forwards;
+}
+
+@keyframes bathTubIn {
+  0%,
+  42.84% {
+    stroke-dashoffset: 353.23284912109375px;
+  }
+
+  47.6% {
+    stroke-dashoffset: 0px;
+  }
+
+  47.6%,
+  52.36% {
+    stroke-dashoffset: 0px;
+  }
+
+  57.12% {
+    stroke-dashoffset: 353.23284912109375px;
+  }
+
+  57.12%,
+  100% {
+    stroke-dashoffset: 353.23284912109375px;
+  }
+}
+
+#tub-bubble {
+  transform-origin: center bottom;
+  transform-box: fill-box;
+  animation: tubBubbleIn 42s ease-in-out infinite forwards;
+}
+
+@keyframes tubBubbleIn {
+  0%,
+  42.84% {
+    transform: scaleY(0);
+  }
+
+  47.6% {
+    transform: scaleY(1);
+  }
+
+  47.6%,
+  52.36% {
+    transform: scaleY(1);
+  }
+
+  57.12% {
+    transform: scaleY(0);
+  }
+
+  57.12%,
+  100% {
+    transform: scaleY(0);
+  }
+}
+
+#bubble-1 {
+  transform-origin: center;
+  transform: scale(0);
+  transform-box: fill-box;
+  animation: bubbleFloat1 42s ease-in-out infinite forwards;
+}
+
+@keyframes bubbleFloat1 {
+  0%,
+  42.84% {
+    transform: scale(0);
+  }
+
+  47.6% {
+    transform: scale(1);
+  }
+
+  /* 47.6%, */
+  52.36% {
+    opacity: 1;
+  }
+
+  57.12% {
+    opacity: 0;
+  }
+
+  57.12%,
+  100% {
+    opacity: 0;
+    transform: scale(1) translateY(-30px);
+  }
+}
+
+#bubble-2 {
+  transform-origin: center;
+  transform: scale(0);
+  transform-box: fill-box;
+  animation: bubbleFloat2 42s ease-in-out 0.25s infinite forwards;
+}
+
+@keyframes bubbleFloat2 {
+  0%,
+  42.84% {
+    transform: scale(0);
+  }
+
+  47.6% {
+    transform: scale(1);
+  }
+
+  /* 47.6%, */
+  52.36% {
+    opacity: 1;
+  }
+
+  57.12% {
+    opacity: 0;
+  }
+
+  57.12%,
+  100% {
+    opacity: 0;
+    transform: scale(1) translateY(-25px);
+  }
+}
+
+#bubble-3 {
+  transform-origin: center;
+  transform: scale(0);
+  transform-box: fill-box;
+  animation: bubbleFloat3 42s ease-in-out 0.5s infinite forwards;
+}
+
+@keyframes bubbleFloat3 {
+  0%,
+  42.84% {
+    transform: scale(0);
+  }
+
+  47.6% {
+    transform: scale(1);
+  }
+
+  /* 47.6%, */
+  52.36% {
+    opacity: 1;
+  }
+
+  57.12% {
+    opacity: 0;
+  }
+
+  57.12%,
+  100% {
+    opacity: 0;
+    transform: scale(1) translateY(-32px);
+  }
+}

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="and.css" />
     <link rel="stylesheet" href="capsule.css" />
     <link rel="stylesheet" href="dumbell.css" />
-    <link rel="stylesheet" href="cream.css" />
+    <link rel="stylesheet" href="tub.css" />
     <link rel="stylesheet" href="leaf.css" />
     <link rel="stylesheet" href="weight.css" />
     <link rel="stylesheet" href="food.css" />
@@ -94,24 +94,47 @@
             />
           </g>
 
-          <g id="cap-cream">
+          <g id="beauty">
             <path
-              id="cream-line"
-              d="M124.5 68.0784C124.5 77.6387 134.5 111.828 134.5 111.828V131.453C134.5 133.328 140.558 133.453 149.188 133.453C156.896 133.453 165 133.328 165 131.453V111.828C165 111.828 175.5 78.4927 175.5 68.8284C175.5 60.6954 157.787 61.4311 149.421 61.6123C141.302 61.7881 124.5 60.1852 124.5 68.0784Z"
+              id="bath-tub"
+              d="M112.875 94.75C111.551 94.75 110.509 94.75 109.25 94.75C104.75 94.75 104.625 88.75 109.25 88.75C111.666 88.75 114.969 88.75 118.875 88.75C142.653 88.75 188.811 88.75 193.75 88.75C197.875 88.75 197.875 94.75 193.75 94.75C192.789 94.75 191.987 94.75 191.031 94.75M112.875 94.75C133.109 94.75 161.104 94.75 191.031 94.75M112.875 94.75C115.75 107.5 113.75 106.75 118.875 116.625C122.241 121.016 126.152 123.619 130.112 125.067M191.031 94.75C187.875 107.75 189.375 108 184.75 116.625C183.583 118.5 176.375 126.562 166.5 126.562C159.438 126.562 153.188 126.562 153.188 126.562C153.188 126.562 144.125 126.562 138.25 126.562C137.604 126.562 136.936 126.533 136.25 126.471M130.112 125.067C130.112 125.067 130.112 129.565 130.112 132.448C130.112 136.229 136.25 136.281 136.25 132.5C136.25 130.145 136.25 126.471 136.25 126.471M130.112 125.067C132.172 125.82 134.349 126.298 136.25 126.471M175.062 124.547C175.062 124.547 175.062 129.657 175.062 132.54C175.062 136.321 168.924 136.373 168.924 132.592C168.924 130.237 168.924 126.401 168.924 126.401"
               stroke="#93C90E"
-              stroke-width="7"
+              stroke-width="5"
+              stroke-linejoin="round"
             />
             <path
-              id="cream-bar"
-              d="M133.125 111.311H166.875"
+              id="tub-bubble"
+              d="M118.375 88.625C118.375 88.625 117.625 71.875 132 71.875C146.375 71.875 144.75 87.875 144.75 87.875C144.75 87.875 144.75 80.125 152.25 80.125C158.5 80.125 159.25 87.875 159.25 87.875"
               stroke="#93C90E"
-              stroke-width="7"
+              stroke-width="5"
+              stroke-linejoin="round"
             />
-            <path
-              id="cream-drop"
-              d="M141.777 91.2131C144.419 86.4944 149.09 77.9006 149.652 77.9006C150.215 77.9006 154.168 84.5256 158.215 91.2131C158.765 92.1214 157.402 98.9631 149.652 98.9631C142.902 98.9631 141.217 92.2151 141.777 91.2131Z"
+            <circle
+              id="bubble-1"
+              cx="167.75"
+              cy="65.375"
+              r="3"
               stroke="#93C90E"
-              stroke-width="6"
+              stroke-width="5"
+              stroke-linejoin="round"
+            />
+            <circle
+              id="bubble-2"
+              cx="183.688"
+              cy="59.6407"
+              r="3"
+              stroke="#93C90E"
+              stroke-width="5"
+              stroke-linejoin="round"
+            />
+            <circle
+              id="bubble-3"
+              cx="180.812"
+              cy="75.6407"
+              r="4.4375"
+              stroke="#93C90E"
+              stroke-width="5"
+              stroke-linejoin="round"
             />
           </g>
 
@@ -176,5 +199,19 @@
         </svg>
       </div>
     </div>
+
+    <script>
+      const introText = document.querySelectorAll("#beauty path");
+
+      for (let i = 0; i < introText.length; i++) {
+        console.log(`letter ${i} is ${introText[i].getTotalLength()}`);
+      }
+
+      // const introText = document.querySelectorAll("#logo path");
+
+      // for (let i = 0; i < introText.length; i++) {
+      //   console.log(`letter ${i} is ${introText[i].getTotalLength()}`);
+      // }
+    </script>
   </body>
 </html>
