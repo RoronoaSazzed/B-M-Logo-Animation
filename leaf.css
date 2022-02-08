@@ -1,30 +1,37 @@
 #leaf {
-  stroke-dasharray: 289.2494201660156px;
-  stroke-dashoffset: 289.2494201660156px;
+  transform-origin: center bottom;
+  transform-box: fill-box;
+  opacity: 1;
+  transform: scale(0);
   animation: leafIcon 42s ease-in-out infinite forwards;
 }
 
 @keyframes leafIcon {
   0%,
   57.12% {
-    stroke-dashoffset: 289.2494201660156px;
+    opacity: 1;
+    transform: scale(0);
   }
 
   61.88% {
-    stroke-dashoffset: 0px;
+    opacity: 1;
+    transform: scale(1);
   }
 
   61.88%,
   66.64% {
-    stroke-dashoffset: 0px;
+    opacity: 1;
+    transform: scale(1);
   }
 
   71.4% {
-    stroke-dashoffset: 289.2494201660156px;
+    opacity: 0;
+    transform: scale(1);
   }
 
   71.4%,
   100% {
-    stroke-dashoffset: 289.2494201660156px;
+    opacity: 0;
+    transform: scale(1);
   }
 }

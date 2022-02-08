@@ -1,5 +1,6 @@
 #andSign {
   /* stroke-dashoffset: 191.10877990722656px; */
+  opacity: 0;
   animation: andSign 42s ease-in-out infinite forwards;
 }
 
@@ -8,7 +9,7 @@
     /* stroke-dasharray: 642.4951171875px;
     stroke-dashoffset: 642.4951171875px;
     fill: transparent; */
-    opacity: 1;
+    opacity: 0;
   }
 
   3.5% {
