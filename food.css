@@ -1,4 +1,4 @@
-#bottom-food {
+/* #bottom-food {
   transform-origin: center;
   transform: rotate(45deg);
   stroke-dasharray: 66.71639251708984px;
@@ -190,5 +190,133 @@
     opacity: 0;
     stroke-dashoffset: 0px;
     transform: translateY(5%);
+  }
+} */
+
+#apple-initial {
+  animation: appleBite 42s ease-in-out infinite forwards;
+}
+
+@keyframes appleBite {
+  0%,
+  85.68% {
+    opacity: 0;
+  }
+
+  90.44% {
+    opacity: 1;
+  }
+
+  90.44%,
+  91.63% {
+    opacity: 1;
+  }
+
+  91.64% {
+    opacity: 0;
+  }
+
+  99.96% {
+    opacity: 0;
+  }
+
+  99.96%,
+  100% {
+    opacity: 0;
+  }
+}
+
+#apple-1 {
+  animation: appleBite1 42s ease-in-out infinite forwards;
+}
+
+@keyframes appleBite1 {
+  0%,
+  91.63% {
+    opacity: 0;
+  }
+
+  91.64% {
+    opacity: 1;
+  }
+
+  91.64%,
+  92.82% {
+    opacity: 1;
+  }
+
+  92.83% {
+    opacity: 0;
+  }
+
+  99.96% {
+    opacity: 0;
+  }
+
+  99.96%,
+  100% {
+    opacity: 0;
+  }
+}
+
+#apple-2 {
+  animation: appleBite2 42s ease-in-out infinite forwards;
+}
+
+@keyframes appleBite2 {
+  0%,
+  92.82% {
+    opacity: 0;
+  }
+
+  92.83% {
+    opacity: 1;
+  }
+
+  92.83%,
+  94.02% {
+    opacity: 1;
+  }
+
+  94.12% {
+    opacity: 0;
+  }
+
+  99.96% {
+    opacity: 0;
+  }
+
+  99.96%,
+  100% {
+    opacity: 0;
+  }
+}
+
+#apple-3 {
+  animation: appleBite3 42s ease-in-out infinite forwards;
+}
+
+@keyframes appleBite3 {
+  0%,
+  94.02% {
+    opacity: 0;
+  }
+
+  94.03% {
+    opacity: 1;
+  }
+
+  94.03%,
+  95.22% {
+    opacity: 1;
+  }
+
+  99.96% {
+    opacity: 0;
+  }
+
+  99.96%,
+  100% {
+    opacity: 0;
   }
 }

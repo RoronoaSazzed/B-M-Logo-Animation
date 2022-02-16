@@ -100,31 +100,37 @@
 #tub-bubble {
   transform-origin: center bottom;
   transform-box: fill-box;
+  opacity: 1;
   animation: tubBubbleIn 42s ease-in-out infinite forwards;
 }
 
 @keyframes tubBubbleIn {
   0%,
   42.84% {
-    transform: scaleY(0);
+    opacity: 1;
+    transform: scale(0);
   }
 
   47.6% {
-    transform: scaleY(1);
+    opacity: 1;
+    transform: scale(1);
   }
 
   47.6%,
   52.36% {
-    transform: scaleY(1);
+    opacity: 1;
+    transform: scale(1);
   }
 
   57.12% {
-    transform: scaleY(0);
+    opacity: 0;
+    transform: scale(1);
   }
 
   57.12%,
   100% {
-    transform: scaleY(0);
+    opacity: 0;
+    transform: scale(1);
   }
 }
 
