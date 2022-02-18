@@ -194,35 +194,41 @@
 } */
 
 #apple-initial {
+  stroke-dasharray: 305.2915344238281px;
+  stroke-dashoffset: 305.2915344238281px;
   animation: appleBite 42s ease-in-out infinite forwards;
 }
 
 @keyframes appleBite {
   0%,
   85.68% {
-    opacity: 0;
+    stroke-dashoffset: 305.2915344238281px;
   }
 
   90.44% {
-    opacity: 1;
+    stroke-dashoffset: 0px;
   }
 
   90.44%,
   91.63% {
     opacity: 1;
+    stroke-dashoffset: 0px;
   }
 
   91.64% {
     opacity: 0;
+    stroke-dashoffset: 0px;
   }
 
   99.96% {
     opacity: 0;
+    stroke-dashoffset: 0px;
   }
 
   99.96%,
   100% {
     opacity: 0;
+    stroke-dashoffset: 0px;
   }
 }
 
@@ -293,6 +299,8 @@
 }
 
 #apple-3 {
+  stroke-dasharray: 303.5865173339844px;
+  stroke-dashoffset: 303.5865173339844px;
   animation: appleBite3 42s ease-in-out infinite forwards;
 }
 
@@ -300,23 +308,27 @@
   0%,
   94.02% {
     opacity: 0;
+    stroke-dashoffset: 0px;
   }
 
   94.03% {
     opacity: 1;
+    stroke-dashoffset: 0px;
   }
 
   94.03%,
   95.22% {
     opacity: 1;
+    stroke-dashoffset: 0px;
   }
 
   99.96% {
-    opacity: 0;
+    stroke-dashoffset: 303.5865173339844px;
   }
 
   99.96%,
   100% {
-    opacity: 0;
+    opacity: 1;
+    stroke-dashoffset: 303.5865173339844px;
   }
 }
