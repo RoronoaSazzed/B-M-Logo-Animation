@@ -185,7 +185,7 @@
 }
 
 #dumbell {
-  animation: dumbellBounceIn 42s infinite forwards;
+  animation: dumbellBounceIn 42s ease-in-out infinite forwards;
 }
 
 @keyframes dumbellBounceIn {
